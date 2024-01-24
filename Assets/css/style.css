@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ .logo{
+    border-radius: 50px;
+ }
+
+li {
+    text-decoration: underline;
+}
+.bg {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/img/red-wine-2443699_1280.jpg");
+    opacity: 0.8;
+}
+nav {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    
+}
+
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: center; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #6D2932; /* couleur du texte */
+    background: #E8D8C4; /* couleur de fond */
+    height: 40px; /* hauteur */
+    border-radius: 15px;
+    line-height: 33px; /* interligne */
+    padding: 10 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    font-size: 22px; /* taille du texte */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #6D2932; /* couleur de fond */
+    color: #E8D8C4;
+    border-radius: 15px;
+    }
+
+
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #E8D8C4;
+    font-size: 42px;
+}
+
+.list1, .list2 {
+    color: #E8D8C4;
+    font-size: 32px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.list1 {
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.list2 {
+    display: inline-block;
+}
+
