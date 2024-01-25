@@ -13,12 +13,12 @@ li {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/Assets/img/red-wine-2443699_1280.jpg");
+    background-image: url("/Assets.vins/img/red-wine-2443699_1280.jpg");
     opacity: 0.8;
 }
 nav {
     display: flex;
-    padding: 10px 10px;
+    padding: 10px 15px;
     justify-content: space-between;
     
 }
@@ -29,10 +29,10 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     color: #6D2932; /* couleur du texte */
     background: #E8D8C4; /* couleur de fond */
     height: 40px; /* hauteur */
-    border-radius: 15px;
+    border-radius: 15px; /* bord arrondi*/
     line-height: 33px; /* interligne */
     padding: 10 10px; /* marges intérieur */
-    font-family: sans-serif; /* police d'écriture */
+    font-family: Arizonia; /* police d'écriture */
     font-size: 13px; /* taille du texte */
     transition: .5s; /* temps de transition lors du hover : une demi seconde */
     font-size: 22px; /* taille du texte */
@@ -50,6 +50,7 @@ h2 {
     text-decoration: underline;
     color: #E8D8C4;
     font-size: 42px;
+    font-family: Babylonica;
 }
 
 .list1, .list2 {
@@ -57,6 +58,7 @@ h2 {
     font-size: 32px;
     padding: 25px;
     margin: 10px;
+    font-family: Arizonia;
 }
 
 .list1 {
@@ -66,6 +68,8 @@ h2 {
 }
 
 .list2 {
-    display: inline-block;
+    display: inline-grid;
+    top: 300px;
+    position: absolute;
 }
 
