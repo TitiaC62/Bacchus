@@ -69,7 +69,8 @@ h2 {
 
 .list2 {
     display: inline-grid;
-    top: 300px;
+    top: 350px;
+    right: 50px;
     position: absolute;
 }
 
