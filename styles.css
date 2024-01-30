@@ -190,3 +190,53 @@ footer{
 
 
 }
+
+/* Page MENUS */
+
+.fond_logo_menus {
+    background-image: url(assets/Le_Bacchus_logo.webp);
+    width: 1138px;
+    height: 1118px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+}
+
+.titre_principal_menus {
+    color: #820C0C;
+    font-family: 'Babylonica', cursive;
+    font-size: 50px;
+    font-weight: 400;
+}
+.titre_secondaire_menus {
+    color: #490C0C;
+    font-family: 'Arizonia', cursive;
+    font-size: 25px;
+    text-align:left;
+}
+
+.explication_menus {
+font-family: 'Dekko', cursive;
+}
+
+.suggestion_vin {
+font-family: 'Courgette', cursive;
+font-size: 12px;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.box1, .box3 {
+    padding: 25px;
+    width: 1000px;
+}
+
+.box2 {
+    justify-content: center;;
+    align-items: center;
+    opacity: 0.5;
+}
